@@ -6,9 +6,12 @@ public class Guitarra {
   private double preco;
   
   public Guitarra(
-        String numeroSerie, String fabricante,
-        String modelo, String tipo,
-        String madeira, double preco) {
+        String numeroSerie, 
+        String fabricante,
+        String modelo, 
+        String tipo,
+        String madeira, 
+        double preco) {
     this.numeroSerie = numeroSerie;
     this.fabricante = fabricante;
     this.modelo = modelo;
